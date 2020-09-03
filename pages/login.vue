@@ -26,7 +26,7 @@ export default {
         });
         this.$router.push('/login');
       } catch (error) {
-        this.$router.push('/a');
+        this.$router.push('/about');
       }
     }
   }

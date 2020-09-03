@@ -23,6 +23,8 @@
           GitHub
         </a>
       </div>
+      <nuxt-link to="about"> About Pages </nuxt-link>
+      <nuxt-link to="users"> About Pages </nuxt-link>
       <hr class="divider" />
       <div v-if="loggedIn">
         <h1>Hello, {{ user.email }}</h1>
@@ -45,7 +47,7 @@ export default {
   methods: {
     async logout() {
       await this.$auth.logout();
-      this.$router.push('/login');
+      this.$router.push('/about');
     }
   }
 };

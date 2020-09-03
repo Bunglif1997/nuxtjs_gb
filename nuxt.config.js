@@ -47,7 +47,7 @@ export default {
   buildModules: [
   ],
   router: {
-    base: '/nuxt.content',
+    base: '/nuxtauth',
   },
   /*
   ** Nuxt.js modules
